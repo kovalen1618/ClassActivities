@@ -8,7 +8,7 @@ console.log(false || !false); // true
 
 // Logical Operators and Truthy/Falsy
 // ? what do you expect each line to print?
-console.log(undefined || null); // false
+console.log(undefined || null); // null
 console.log(!``); // true
 console.log(!(1 && "false")); // false
 console.log(NaN || !"true"); // false
