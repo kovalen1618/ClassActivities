@@ -17,4 +17,4 @@ y = { id: 1 };
 x = y;
 console.log(x === y); // False
 y.id += 1;
-console.log(x.id === y.id); // False
+console.log(x.id === y.id); // True
